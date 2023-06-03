@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Pokemon</title>
+    <script src="../js/juego.js"></script>
+    <link rel="stylesheet" href="../css/juego.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio 1 - Juego Pokémon</h1>
+    </header>
+    <nav></nav>
+    <section>
+        <div class="container">
+            <div class="textoI">
+                <label for="" id="puntaje">Puntaje: 0</label>
+                <label for="" id="intentos">Intentos: 0</label>
+                <label for="">Selecciona el nombre de Pokémon correcto</label>
+            </div>
+            <img id="imagen" src="../img/pnegro.jpg" alt="Error al mostrar la imagen.">
+            <div class="botones">
+                <button onclick="comprobar('opcion1')" id="opcion1" class="boton">keldeo-ordinary</button>
+                <button onclick="comprobar('opcion2')" id="opcion2" class="boton">drilbur</button>
+                <button onclick="comprobar('opcion3')" id="opcion3" class="boton">ninjask</button>
+                <button onclick="comprobar('opcion4')" id="opcion4" class="boton">excadrill</button>
+            </div>
+            <label for="" id="resultado">Resultado</label>
+            <div>
+                <button id="reiniciar" onclick="reiniciar()">Reiniciar juego</button>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+
+</html>

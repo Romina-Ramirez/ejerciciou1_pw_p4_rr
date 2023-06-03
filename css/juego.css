@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoI {
+    display: grid;
+    font-weight: bold;
+    border: 2px dashed #279898;
+    border-radius: 15px;
+    background-color: #b1f9f9;
+}
+
+.botones {
+    display: grid;
+}
+
+#resultado {
+    padding: 7px;
+    width: 450px;
+}
+
+.boton {
+    background-color: #bcffe9;
+    border: 2px solid #85f3ce;
+}
+
+button {
+    padding: 2px;
+    width: 300px;
+}
+
+#imagen {
+    border: 2px solid #279885;
+}
+
+#reiniciar {
+    background-color: #bcffdf;
+    border: 2px solid #6ff8b6;
+}
